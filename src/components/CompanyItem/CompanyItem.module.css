@@ -1,4 +1,4 @@
-.company {
+.CompanyItem {
   position: fixed;
   top: 62px;
   bottom: 0;
@@ -7,36 +7,26 @@
   padding: 0;
 }
 
-.company > a:active {
-  color: black;
-}
-
-.company > li {
-  padding: 10px 5px;
-  list-style: none;
-  text-align: center;
-}
-
-.company > a > li {
+.listItem {
   padding: 10px 5px;
   list-style: none;
   text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
-  .company {
+  .CompanyItem {
     width: 40%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .company {
+  .CompanyItem {
     top: 157px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .company {
+  .CompanyItem {
     position: relative;
     top: 0;
     width: 100%;

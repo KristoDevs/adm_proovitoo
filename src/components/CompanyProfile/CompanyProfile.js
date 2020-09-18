@@ -10,8 +10,6 @@ export default function CompanyProfile(props) {
       <p>Number of required cargo bays: {props.cargoBays}</p>
       <label className={classes.label}>{props.labelTitle}</label>
       <input
-        type='number'
-        step='0.1'
         className={classes.cargoBoxes}
         type='text'
         name='cargoboxes'
